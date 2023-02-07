@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Allura&family=Arizonia&family=Caveat:wght@400;500;600;700&family=Cookie&family=Dancing+Script:wght@400;500;600;700&family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Parisienne&family=Sofia&family=Yellowtail&display=swap');
+
+:root {
+    --brown: #5A3F31;
+    --brown-light: #e90d10;
+    --orange: #FF9C60;
+    --orange-light: #ff9d6034;
+    --gray: #434F59;
+}
+
+body {
+    font-family: "Overlock", cursive;    
+    /* font-family: 'Alex Brush', cursive; */
+    /* font-family: 'Allura', cursive; */
+    /* font-family: 'Arizonia', cursive; */
+    /* font-family: 'Caveat', cursive; */
+    /* font-family: 'Cookie', cursive; */
+    /* font-family: 'Dancing Script', cursive; */
+    /* font-family: 'Parisienne', cursive; */
+    /* font-family: 'Sofia', cursive; */
+    /* font-family: 'Yellowtail', cursive; */
+}
+
+.text-principal {
+    color: var(--orange);
+}
+
+.text-description {
+    color: var(--brown);
+}
+
+header,
+footer {
+    background-color: var(--brown);
+    color: #fff;
+    padding: 5px 0;
+}
+header h1, h2, h3, h4, h5,
+.section-title {
+    font-family: 'Arizonia', cursive;
+}
+h1 {
+    margin: 0;
+}
+
+.nav-item .nav-link.active {
+    border-top: 1px solid;
+    border-top-left-radius: 10px;
+}
+.nav-link {
+    color: #fff;
+}
+.nav-link:hover,
+.nav-item .nav-link.active  {
+    color: var(--orange);
+    background-color: transparent;
+}
+
+#hero img {
+    height: 550px;
+    object-fit: cover;
+    object-position: bottom;
+}
+
+
+.section-title {
+    color: var(--brown);
+}
+
+#sobre img,
+#produtos .card,
+#kits img {
+    border-radius: 24px;
+}
+#sobre img {
+    min-height: 400px;
+}
+
+#produtos {
+    background-color: var(--orange-light)
+}
+#produtos .card img {
+    border-radius: 24px 24px 0 0;
+}
+
+.btn-principal {
+    background-color: var(--brown);
+    color: #fff;
+}
+.btn-principal:hover {
+    background-color: var(--brown);
+    color: var(--orange)
+}
+section {
+    padding: 80px
+}
+
+.form-control:focus {
+    color: var(--brown);
+    border-color: #593e31;
+    box-shadow: 0 0 0 0.25rem rgb(89 62 49 / 25%);
+}
+
+label.error {
+    background-color: rgba(255, 0, 0, 0.151);
+    color: var(--brown-light);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 0 24px 24px 0;
+}
+
+footer li {
+    list-style: none;
+}
+footer li a:hover {
+    color: white;
+}

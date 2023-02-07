@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cachaça Artesanal</title>
+
+    <!-- Bootstrap CSS v5.2.3-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons v1.10.3-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+    
+    <header class="sticky-top">
+        <div class="navbar navbar-expand-lg">
+
+            <div class="container">
+                <a href="#" class=text-decoration-none text-white">
+                    <h1 class="text-white">Cachaça Artesanal</h1>
+                </a>
+
+                <button type="button" class="navbar-toggler bg-white" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <nav id="menuPrincipal" class="collapse navbar-collapse justify-content-end">
+                    <ul class="nav nav-pills d-block d-md-flex">
+                        <li class="nav-item fw-bold">
+                            <a href="#sobre" class="nav-link fs-4 active">Sobre</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#produtos" class="nav-link fs-4">Produtos</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#kits" class="nav-link fs-4">Kits Presente</a>
+                        </li>
+                        <li class="nav-item fw-bold">
+                            <a href="#contato" class="nav-link fs-4">Contato</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+    </header>
+
+    <div id="hero" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2500">
+                <picture>
+                    <!-- <source media="(max-width: 568px)" srcset=""> -->
+                    <!-- <source media="(max-width: 767px)" srcset=""> -->
+                    <!-- <source media="(max-width: 1024px)" srcset=""> -->
+                    <img src="https://media.istockphoto.com/id/521471784/photo/traditional-brazilian-cachaca.jpg?b=1&s=170667a&w=0&k=20&c=s8pDyZc21GH0XPWVpPrOAWQENYXvmCyXSbdb1Lokziw=" alt="Imagem de garrafas de cachaça" class="d-block w-100">
+                </picture>
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <picture>
+                    <!-- <source media="(max-width: 568px)" srcset=""> -->
+                    <!-- <source media="(max-width: 767px)" srcset=""> -->
+                    <!-- <source media="(max-width: 1024px)" srcset=""> -->
+                    <img src="https://media.istockphoto.com/id/1227430926/photo/glass-of-golden-rum-with-bottle-bottle-pouring-alcohol-into-a-small-glass-brazilian-export.jpg?b=1&s=170667a&w=0&k=20&c=iXSw_KEZ_yD0drrWoQwo5uOXSV8pP26xPGRDBUlvMH4=" alt="Copo de cachaça" class="d-block w-100">
+                </picture>
+            </div>
+            <div class="carousel-item" data-bs-interval="2500">
+                <picture>
+                    <!-- <source media="(max-width: 568px)" srcset=""> -->
+                    <!-- <source media="(max-width: 767px)" srcset=""> -->
+                    <!-- <source media="(max-width: 1024px)" srcset=""> -->
+                    <img src="https://media.istockphoto.com/id/522536060/photo/cacha%C3%A7a-barrel-brazilian-drink.jpg?b=1&s=170667a&w=0&k=20&c=G5Cp0ydQPYTKBssJmIwF3GlfsQgfPVuv53XUgX9Wn2g=" alt="Tonel de cachaça" class="d-block w-100">
+                </picture>
+            </div>
+            <button type="button" data-bs-slide="prev" data-bs-target="#hero" class="carousel-control-prev">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button type="button" data-bs-slide="next" data-bs-target="#hero" class="carousel-control-next">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+        </div>
+
+        <div class="carousel-indicators">
+            <button type="button" data-bs-slide-to="0" data-bs-target="#hero" class="active"></button>
+            <button type="button" data-bs-slide-to="1" data-bs-target="#hero"></button>
+            <button type="buttom" data-bs-slide-to="2" data-bs-target="#hero"></button>
+        </div>
+    </div>
+
+    <main data-bs-spy="scroll" data-bs-target="menuPrincipal">
+        <section id="sobre" class="pb-5">
+            <div class="container">
+                <div class="row d-md-flex flex-direction-column g-4">
+                    <div class="col-md-7">
+                        <h2 class="section-title fw-bolder mb-4 fs-1">Cachaça Artesanal</h2>
+                        <p class="fs-5 text-description fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptate distinctio id at nemo repudiandae aperiam labore quibusdam maxime minima vel magnam error perspiciatis dignissimos consequatur quis eos eaque placeat.
+                        </p>
+                        <p class="fs-5 text-description fs-5 ">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptate distinctio id at nemo repudiandae aperiam labore quibusdam maxime minima vel magnam error perspiciatis dignissimos consequatur quis eos eaque placeat.
+                        </p>
+                        <p class="fs-5 text-description fs-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, voluptate distinctio id at nemo repudiandae aperiam labore quibusdam maxime minima vel magnam error perspiciatis dignissimos consequatur quis eos eaque placeat.
+                        </p>
+                    </div>
+                    <div class="col-md-5">
+                        <div id="imagemApresentacao"  class="carousel slide carousel-fade" data-bs-ride="carousel">
+                            <div class="coursel-inner">
+                                <div class="carousel-item active" data-bs-interval="3100">
+                                    <img class="d-block w-100" src="https://media.istockphoto.com/id/599464050/photo/wooden-barrels-deposit-for-brazilian-cacha%C3%A7a-aging-sugarcane-liquor.jpg?s=612x612&w=0&k=20&c=cZLg3AS-8X9SrCosnnqFdZMtDnWyxI2S8CLM95cHsqk=" alt="">
+                                </div>
+                                <div class="carousel-item" data-bs-interval="3100">
+                                    <img class="d-block w-100" src="https://media.istockphoto.com/id/1143058958/photo/man-serving-caipirinha-to-woman.jpg?s=612x612&w=0&k=20&c=a4Hf1ad7ng5LbBJZuoKwRcD0vsj_2WZUl6evjwJNWWA=" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="produtos" class="pb-5">
+            <div class="container">
+                <h2 class="section-title fw-bolder mb-4 fs-1">
+                    Nossos protdutos
+                </h2>
+
+                <div class="row">
+
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img class="" src="https://media.istockphoto.com/id/1265017793/photo/brazilian-drink-known-as-cacha%C3%A7a-pinga-cane-or-distilled-sugar-cane-name-given-to-cognac.jpg?s=612x612&w=0&k=20&c=epQxxaG8Fe4GGYFGOzjFpbgGtLtBy129uyaLMMVHWkc=" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title text-description fw-bolder">Nome Cachaça</h4>
+                                <p class="text-description fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img class="" src="https://media.istockphoto.com/id/1265017793/photo/brazilian-drink-known-as-cacha%C3%A7a-pinga-cane-or-distilled-sugar-cane-name-given-to-cognac.jpg?s=612x612&w=0&k=20&c=epQxxaG8Fe4GGYFGOzjFpbgGtLtBy129uyaLMMVHWkc=" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title text-description fw-bolder">Nome Cachaça</h4>
+                                <p class="text-description fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img class="" src="https://media.istockphoto.com/id/1265017793/photo/brazilian-drink-known-as-cacha%C3%A7a-pinga-cane-or-distilled-sugar-cane-name-given-to-cognac.jpg?s=612x612&w=0&k=20&c=epQxxaG8Fe4GGYFGOzjFpbgGtLtBy129uyaLMMVHWkc=" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title text-description fw-bolder">Nome Cachaça</h4>
+                                <p class="text-description fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img class="" src="https://media.istockphoto.com/id/1265017793/photo/brazilian-drink-known-as-cacha%C3%A7a-pinga-cane-or-distilled-sugar-cane-name-given-to-cognac.jpg?s=612x612&w=0&k=20&c=epQxxaG8Fe4GGYFGOzjFpbgGtLtBy129uyaLMMVHWkc=" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title text-description fw-bolder">Nome Cachaça</h4>
+                                <p class="text-description fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img class="" src="https://media.istockphoto.com/id/1265017793/photo/brazilian-drink-known-as-cacha%C3%A7a-pinga-cane-or-distilled-sugar-cane-name-given-to-cognac.jpg?s=612x612&w=0&k=20&c=epQxxaG8Fe4GGYFGOzjFpbgGtLtBy129uyaLMMVHWkc=" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title text-description fw-bolder">Nome Cachaça</h4>
+                                <p class="text-description fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img class="" src="https://media.istockphoto.com/id/1265017793/photo/brazilian-drink-known-as-cacha%C3%A7a-pinga-cane-or-distilled-sugar-cane-name-given-to-cognac.jpg?s=612x612&w=0&k=20&c=epQxxaG8Fe4GGYFGOzjFpbgGtLtBy129uyaLMMVHWkc=" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title text-description fw-bolder">Nome Cachaça</h4>
+                                <p class="text-description fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mb-4">
+                        <div class="card">
+                            <img class="" src="https://media.istockphoto.com/id/1265017793/photo/brazilian-drink-known-as-cacha%C3%A7a-pinga-cane-or-distilled-sugar-cane-name-given-to-cognac.jpg?s=612x612&w=0&k=20&c=epQxxaG8Fe4GGYFGOzjFpbgGtLtBy129uyaLMMVHWkc=" alt="">
+                            <div class="card-body">
+                                <h4 class="card-title text-description fw-bolder">Nome Cachaça</h4>
+                                <p class="text-description fs-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="kits" class="pb-5">
+            <div class="container">
+                <h2 class="section-title fw-bolder mb-4 fs-1">Kits presentes</h2>
+
+                <div class="d-flex gap-4 justify-conten-between align-items-center w-100 mb-5">
+                    <img src="https://media.istockphoto.com/id/915334848/photo/brazilian-drink-caipirinha-ingredients-cacha%C3%A7a-in-a-barrel-lemons-and-limes.jpg?s=612x612&w=0&k=20&c=clEoHHCAaoduSf0SFx-O_jS1GSCZ3ALEIq1K-p2F-qw=" alt="">
+
+                    <div>
+                        <h3 class="text-description h1">Nome do kit</h3>
+                        <p class="text-description fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius suscipit eligendi dolor exercitationem laborum incidunt tempore deserunt numquam ea quae necessitatibus delectus totam placeat id fugiat molestias, labore eaque consequuntur?</p>
+                        <button type="button" class="btn btn-principal fs-5 fw-bold">Entrar em contato</button>
+                    </div>
+                </div>
+                <div class="d-flex gap-4 justify-conten-between align-items-center w-100 mb-5">
+                    <div>
+                        <h3 class="text-description h1">Nome do kit</h3>
+                        <p class="text-description fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius suscipit eligendi dolor exercitationem laborum incidunt tempore deserunt numquam ea quae necessitatibus delectus totam placeat id fugiat molestias, labore eaque consequuntur?</p>
+                        <button type="button" class="btn btn-principal fs-5 fw-bold">Entrar em contato</button>
+                    </div>
+                    
+                    <img src="https://media.istockphoto.com/id/925434436/photo/bar-accessories-drink-tools-and-cocktail-ingredients-on-rusty-stone-table-flat-lay-style.jpg?s=612x612&w=0&k=20&c=SYpSnJEeoCZCNwDxHj06E8dmTzYW4xGCAYzyT8BCulw=" alt="">
+                </div>
+                <div class="d-flex gap-4 justify-conten-between align-items-center w-100 mb-5">
+                    <img src="https://media.istockphoto.com/id/514987706/photo/glass-cocktail-lime-mint-ice-drink-making-bar-tools-shaker.jpg?s=612x612&w=0&k=20&c=gvecgMNqYr6orRWqYvc9a5RfvbYu15GiThrHZ7kU_dI=" alt="">
+
+                    <div>
+                        <h3 class="text-description h1">Nome do kit</h3>
+                        <p class="text-description fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius suscipit eligendi dolor exercitationem laborum incidunt tempore deserunt numquam ea quae necessitatibus delectus totam placeat id fugiat molestias, labore eaque consequuntur?</p>
+                        <button type="button" class="btn btn-principal fs-5 fw-bold">Entrar em contato</button>
+                    </div>
+                </div>
+                <div class="d-flex gap-4 justify-conten-between align-items-center w-100 mb-5">
+                    <div>
+                        <h3 class="text-description h1">Nome do kit</h3>
+                        <p class="text-description fs-4">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eius suscipit eligendi dolor exercitationem laborum incidunt tempore deserunt numquam ea quae necessitatibus delectus totam placeat id fugiat molestias, labore eaque consequuntur?</p>
+                        <button type="button" class="btn btn-principal fs-5 fw-bold">Entrar em contato</button>
+                    </div>
+                    
+                    <img src="https://media.istockphoto.com/id/1214792838/photo/brazilian-caipirinha-brazilian-cocktail-made-with-strawberry-cacha%C3%A7a-and-sugar-ingredients-of.jpg?s=612x612&w=0&k=20&c=5flS3Pu3ffiiHsJhre1kRfb47VXiKtdm7GQUMhWmfZ4=" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="pb-5">
+            <div class="container">
+                <h2 class="section-title fw-bolder mb-4 fs-1">Entre em contato</h2>
+
+                <div class="row">
+                    <div class="col-md-7">
+                        <form id="form-contato" action="#" method="post">
+                            <div class="mb-4">
+                                <label for="nome" class="form-label text-description fw-bold">Seu nome</label>
+                                <input type="text" id="nome" name="nome" class="form-control">
+                            </div>
+                            <div class="mb-4">
+                                <label for="email" class="form-label text-description fw-bold">Seu e-mail</label>
+                                <input type="email" id="email" name="email" class="form-control">
+                            </div>
+                            <div class="mb-4">
+                                <label for="Telefone" class="form-label text-description fw-bold">Seu telefone</label>
+                                <input type="tel" id="telefone" name="telefone" class="form-control" >
+                            </div>
+                            <div class="mb-4">
+                                <label for="nome" class="form-label text-description fw-bold">Sua mensagem</label>
+                                <textarea id="mensagem" name="mensagem" class="form-control"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn btn-principal">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer>
+        <div class="container pb-5">
+            <div class="row mt-5 mb-5">
+                <h2 class="section-title text-white fw-bolder mb-4 fs-1">Cachaça Atesanal</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-4 mb-4">
+                    <h3>Menu</h3>
+                    <div>
+                        <li>
+                            <a href="#sobre" target="_blank" title="Siganos no Facebook" class="fs-4 text-principal text-decoration-none">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" title="Siganos no Instagram" class="fs-4 text-principal text-decoration-none">Produtos</a>
+                        </li>
+                        <li>
+                            <a href="#kits" target="_blank" title="Siganos no Youtube" class="fs-4 text-principal text-decoration-none">Kits Presente</a>
+                        </li>
+                        <li>
+                            <a href="#contato" target="_blank" title="Entre em contato pelo Whatsapp" class="fs-4 text-principal text-decoration-none">Contato</a>
+                        </li>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <h3>Social</h3>
+                    <div class="d-flex gap-5">
+                        <li>
+                            <a href="#" target="_blank" title="Siganos no Facebook" class="fs-3 text-principal">
+                                <i class="bi bi-facebook"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" title="Siganos no Instagram" class="fs-3 text-principal">
+                                <i class="bi bi-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" title="Siganos no Youtube" class="fs-3 text-principal">
+                                <i class="bi bi-youtube"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank" title="Entre em contato pelo Whatsapp" class="fs-3 text-principal">
+                                <i class="bi bi-whatsapp"></i>
+                            </a>
+                        </li>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Contatos</h3>
+                    <div>
+                        <li>
+                            <a href="tel:41999999999" class="text-principal text-decoration-none fs-4">(41) 9 9999-9999</a>
+                        </li>
+                        <li>
+                            <a href="mailto:vendas@cachacaartesanal.com" class="text-principal text-decoration-none fs-4">vendas@cachacaartesanal.com</a>
+                        </li>
+                        <li>
+                            <a href="tel:41988888891" class="text-principal text-decoration-none fs-4">(41) 9 8888-8891</a>
+                        </li>
+                        <li>
+                            <a href="mailto:consutapedido@cachacaartesanal.com" class="text-principal text-decoration-none fs-4">consutapedido@cachacaartesanal.com</a>
+                        </li>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4">
+                    <h3>Vendas</h3>
+                    <div>
+                        <li>
+                            <a href="tel:41999999999" class="text-principal text-decoration-none fs-4">(41) 9 9999-9999</a>
+                        </li>
+                        <li>
+                            <a href="mailto:vendas@cachacaartesanal.com" class="text-principal text-decoration-none fs-4">vendas@cachacaartesanal.com</a>
+                        </li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center text-principal">
+                <p class="">&copy; Cachaça Artesanal - Todos os direitos reservados</p> 
+                <p>Desenvolvido por - <a href="http://jemak.com.br/" class="text-white text-decoration-none fw-bold">Jemak</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery v3.6.3 -->
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+
+    <!-- jQuerys -->
+    <script src="assets/lib/jQueryValidation/jquery.validate.min.js"></script>
+    <script src="assets/lib/jQueryValidation/messages_pt_PT.min.js"></script>
+    <script src="assets/lib/jquery.mask.min.js"></script>
+
+    <!-- Bootstrap Js v5.2.3 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
