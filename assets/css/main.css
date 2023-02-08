@@ -62,7 +62,6 @@ h1 {
     object-position: bottom;
 }
 
-
 .section-title {
     color: var(--brown);
 }
@@ -73,11 +72,13 @@ h1 {
     border-radius: 24px;
 }
 #sobre img {
-    min-height: 400px;
+    min-height: 350px;
+    max-height: 350px;
+    object-fit: cover;
 }
 
 #produtos {
-    background-color: var(--orange-light)
+    background-color: var(--orange-light);
 }
 #produtos .card img {
     border-radius: 24px 24px 0 0;
@@ -89,10 +90,10 @@ h1 {
 }
 .btn-principal:hover {
     background-color: var(--brown);
-    color: var(--orange)
+    color: var(--orange);
 }
 section {
-    padding: 80px
+    padding: 80px 0;
 }
 
 .form-control:focus {
@@ -115,3 +116,4 @@ footer li {
 footer li a:hover {
     color: white;
 }
+
