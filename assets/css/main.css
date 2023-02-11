@@ -93,7 +93,7 @@ h1 {
     color: var(--orange);
 }
 section {
-    padding: 80px 0;
+    padding: 80px 0px;
 }
 
 .form-control:focus {
